@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Gastronômico • Ap da Alê</title>
+    <meta name="description"
+        content="Os melhores restaurantes de Santos selecionados para os hóspedes do Ap da Alê, a poucos passos da praia do Gonzaga.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>Ap da Alê</h1>
+            <p>Santos • Praia do Gonzaga</p>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Restaurantes</a>
+            <a href="o_que_fazer.html">Descubra Santos</a>
+            <a href="sobre_a_casa.html">Sobre o Apê</a>
+        </nav>
+        <div class="social-links">
+            <a href="https://www.instagram.com/apda_ale/" target="_blank" rel="noopener" aria-label="Instagram do Ap da Alê" title="Instagram">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle></svg>
+            </a>
+            <a href="https://www.airbnb.com.br/rooms/678897444676822575" target="_blank" rel="noopener" aria-label="Anúncio no Airbnb" title="Airbnb">
+                <img class="airbnb-badge" src="airbnb-icon.png" width="18" height="18" alt="">
+            </a>
+            <a href="https://share.google/uuVBnbDMF6iq38gbg" target="_blank" rel="noopener" aria-label="Avaliações no Google" title="Avaliações no Google">
+                <span class="g-badge">G</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <img class="hero-bg" src="hero_ap_ale.jpg" alt="Vista da praia do Gonzaga, em Santos">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-tag">Exclusivo para hóspedes</span>
+        <h2>Guia Gastronômico<br>Santos</h2>
+        <p>Descubra os melhores restaurantes selecionados para os hóspedes do Ap da Alê.</p>
+    </div>
+    <div class="scroll-down">⌄</div>
+</section>
+
+<section class="intro">
+    <div class="container">
+        <div class="intro-card">
+            <h3>🍽 Curadoria Ap da Alê</h3>
+            <p>Selecionamos restaurantes pensando na experiência dos nossos hóspedes.</p>
+            <div class="intro-features experience-grid">
+                <button class="active" onclick="filtrarPorExperiencia('Todos')">Todos</button>
+                <button onclick="filtrarPorExperiencia('frutos-do-mar')">🦐 Frutos do Mar</button>
+                <button onclick="filtrarPorExperiencia('pizza')">🍕 Pizza</button>
+                <button onclick="filtrarPorExperiencia('carnes')">🥩 Carnes</button>
+                <button onclick="filtrarPorExperiencia('brasileira')">🍛 Brasileira</button>
+                <button onclick="filtrarPorExperiencia('cafés')">☕ Cafés e Padarias</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main>
+    <div class="container">
+        <section id="restaurantGrid" class="restaurant-grid">
+            <!-- Cards gerados por script.js -->
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container footer-content">
+        <div>
+            <h3>Ap da Alê</h3>
+            <p>Guia desenvolvido especialmente para nossos hóspedes.</p>
+        </div>
+        <div>
+            <h3>Links</h3>
+            <p><a href="https://www.airbnb.com.br/rooms/678897444676822575" target="_blank" rel="noopener">Airbnb</a></p>
+            <p><a href="https://www.instagram.com/apda_ale/" target="_blank" rel="noopener">Instagram</a></p>
+            <p><a href="https://share.google/uuVBnbDMF6iq38gbg" target="_blank" rel="noopener">Google</a></p>
+        </div>
+        <div>
+            <p>Santos • SP</p>
+            <p>© 2026 Ap da Alê</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

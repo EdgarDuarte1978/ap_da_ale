@@ -1,0 +1,6 @@
+# Instalar com:  py -3 -m pip install -r requirements.txt
+requests
+Pillow
+# ATENCAO: nao troque por uma versao 5.x do OpenCV - a 5.0.0 para Python 3.14 veio sem
+# o detector de rosto (CascadeClassifier). A 4.10.0.84 foi a testada e funciona.
+opencv-python-headless==4.10.0.84

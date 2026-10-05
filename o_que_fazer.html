@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Santos • Ap da Alê</title>
+    <meta name="description"
+        content="Praias, passeios, museus, parques e serviços de Santos selecionados para os hóspedes do Ap da Alê.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <h1>Ap da Alê</h1>
+            <p>Santos • Praia do Gonzaga</p>
+        </div>
+        <nav>
+            <a href="index.html">Restaurantes</a>
+            <a href="o_que_fazer.html" class="active">Descubra Santos</a>
+            <a href="sobre_a_casa.html">Sobre o Apê</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <img class="hero-bg" src="hero_ap_ale.jpg" alt="Vista da praia do Gonzaga, em Santos">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h2>Descubra Santos</h2>
+        <p>Explore as melhores praias, passeios e atrações da cidade.</p>
+    </div>
+    <div class="scroll-down">⌄</div>
+</section>
+
+<section class="intro">
+    <div class="container">
+        <div class="intro-card">
+            <h3>✨ Atrações Imperdíveis</h3>
+            <p>Uma seleção para aproveitar cada dia da sua estadia.</p>
+            <div class="intro-features experience-grid" id="filters">
+                <button class="active" onclick="filtrarPorExperiencia('Todos')">Todos</button>
+                <button onclick="filtrarPorExperiencia('orla')">🏖️ Orla e Praias</button>
+                <button onclick="filtrarPorExperiencia('passeios')">🎡 Passeios Clássicos</button>
+                <button onclick="filtrarPorExperiencia('cultura')">🎭 Museus e Cultura</button>
+                <button onclick="filtrarPorExperiencia('parques')">🌳 Parques e Mirantes</button>
+                <button onclick="filtrarPorExperiencia('mar')">⛵ Passeios no Mar</button>
+                <button onclick="filtrarPorExperiencia('compras')">🛍️ Compras</button>
+                <button onclick="filtrarPorExperiencia('supermercados')">🛒 Supermercados</button>
+                <button onclick="filtrarPorExperiencia('farmacias')">💊 Farmácias</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main>
+    <div class="container">
+        <section id="attractionGrid" class="restaurant-grid">
+            <!-- Cards gerados por script_atracoes.js -->
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container footer-content">
+        <div>
+            <h3>Ap da Alê</h3>
+            <p>Guia desenvolvido especialmente para nossos hóspedes.</p>
+        </div>
+        <div>
+            <h3>Links</h3>
+            <p><a href="https://www.airbnb.com.br/rooms/678897444676822575" target="_blank" rel="noopener">Airbnb</a></p>
+            <p><a href="https://www.instagram.com/apda_ale/" target="_blank" rel="noopener">Instagram</a></p>
+            <p><a href="https://share.google/uuVBnbDMF6iq38gbg" target="_blank" rel="noopener">Google</a></p>
+        </div>
+        <div>
+            <p>Santos • SP</p>
+            <p>© 2026 Ap da Alê</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script_atracoes.js"></script>
+
+</body>
+
+</html>

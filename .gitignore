@@ -1,0 +1,29 @@
+# Build / distribuição (reproduzível a partir do código-fonte)
+publicar/
+publicar_casa_terras_altas.zip
+Guia da casa Terras altas.zip
+
+# NUNCA versionar: contêm código do cofre de chaves / alarme e senha do Wi-Fi
+# em texto puro (slides do guia interno, não são para o site público)
+4.png
+8.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / SO
+.vscode/
+.DS_Store
+Thumbs.db
+
+# fotos candidatas temporarias (revisao manual)
+_candidatas/
+*_backup_*.json
+*_google_fontes.csv
+restaurantes_relatorio.csv
+
+# backups gerados por fazer_backup.py
+backup/

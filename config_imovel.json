@@ -1,0 +1,43 @@
+{
+  "_ajuda": "UNICO arquivo a editar para trocar de imovel/cidade. Os scripts leem daqui. Cada categoria: [consulta no Google, tipo do Places (ou null), tag do filtro, quantidade opcional].",
+
+  "imovel": {
+    "nome": "Ap da Alê",
+    "anfitria": "Alessandra",
+    "endereco_publico": "Av. Presidente Wilson, 26 - José Menino, Santos - SP",
+    "endereco_origem_como_chegar": "Av. Presidente Wilson, 26 - José Menino, Santos, SP",
+    "lat": -23.9688525,
+    "lng": -46.3355102,
+    "airbnb": "https://www.airbnb.com.br/rooms/678897444676822575",
+    "instagram": "https://www.instagram.com/apda_ale/",
+    "google": "https://share.google/uuVBnbDMF6iq38gbg",
+    "telefone": "(13) 98822-0860"
+  },
+
+  "cidade": {
+    "nome": "Santos",
+    "filtro_endereco": ", santos - sp",
+    "raio_busca_m": 8000
+  },
+
+  "excluir_nomes": ["Mercado Municipal"],
+
+  "restaurantes": {
+    "Frutos do Mar":    ["restaurante de frutos do mar e peixes em Santos",                "restaurant", "frutos-do-mar"],
+    "Pizzaria":         ["pizzaria em Santos",                                              "restaurant", "pizza"],
+    "Carnes":           ["churrascaria e restaurante de carnes e grelhados em Santos",      "restaurant", "carnes"],
+    "Brasileira":       ["restaurante de comida brasileira e regional em Santos",           "restaurant", "brasileira"],
+    "Cafés e Padarias": ["cafeteria, padaria e confeitaria em Santos",                      "cafe",       "cafés"]
+  },
+
+  "atracoes": {
+    "Orla e Praias":      ["praias e jardins da orla em Santos",                             "tourist_attraction", "orla"],
+    "Passeios Clássicos": ["principais pontos turísticos de Santos",                         "tourist_attraction", "passeios"],
+    "Museus e Cultura":   ["museus e centros culturais em Santos",                           "museum",             "cultura"],
+    "Parques e Mirantes": ["parques, jardins, mirantes e morros em Santos",                  "park",               "parques"],
+    "Passeios no Mar":    ["passeios de barco, aquário e atividades no mar em Santos",       "tourist_attraction", "mar"],
+    "Compras":            ["shoppings e centros de compras em Santos",                       "shopping_mall",      "compras"],
+    "Supermercados":      ["supermercado em Santos",                                         "supermarket",        "supermercados"],
+    "Farmácias":          ["farmácia 24 horas em Santos",                                    "pharmacy",           "farmacias", 5]
+  }
+}
