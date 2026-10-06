@@ -19,6 +19,12 @@ async function carregarRestaurantes() {
     try {
         const resposta = await fetch("restaurantes.json");
         restaurantes = await resposta.json();
+        // bares tradicionais (guardados em atracoes.json) tambem aparecem aqui
+        try {
+            const rb = await fetch("atracoes.json");
+            const bares = (await rb.json()).filter(a => (a.tags || []).includes("bares"));
+            restaurantes = restaurantes.concat(bares);
+        } catch (e) { console.warn("Bares nao carregados:", e); }
         restaurantesFiltrados = [...restaurantes];
         renderizar(restaurantesFiltrados);
     } catch (erro) {
@@ -105,7 +111,14 @@ function pesquisar(texto) {
 // ------------------------------------------------------
 // FILTRO POR EXPERIÊNCIA / CATEGORIA
 // ------------------------------------------------------
+const NOTA_BARES = "Santos tem uma tradição de bares: mesas na calçada, chope gelado, petiscos e conversa até tarde, espalhados pelos bairros da cidade. Uma seleção dos mais queridos pelos santistas.";
+
 function filtrarPorExperiencia(tag) {
+    const nota = document.getElementById("nota-categoria");
+    if (nota) {
+        nota.textContent = tag === "bares" ? NOTA_BARES : "";
+        nota.hidden = tag !== "bares";
+    }
     if (tag === "Todos" || !tag) {
         restaurantesFiltrados = [...restaurantes];
     } else {

@@ -11,10 +11,18 @@ const ORIGEM_CASA = "Av. Presidente Wilson, 26 - José Menino, Santos, SP"; // e
 
 let atracoes = [];
 
+// texto de apresentacao exibido quando a categoria (tag) e selecionada
+const NOTAS_CATEGORIA = {
+    bares: "Santos tem uma tradição de bares: mesas na calçada, chope gelado, petiscos e conversa até tarde, espalhados pelos bairros da cidade. " +
+           "Uma seleção dos mais queridos pelos santistas, para você viver essa tradição.",
+    orla: "A orla de Santos tem o jardim de praia considerado o maior do mundo, com quiosques, ciclovia e muito espaço para caminhar. O apê fica em frente à praia."
+};
+
 async function carregarAtracoes() {
     try {
         const resposta = await fetch("atracoes.json");
-        atracoes = await resposta.json();
+        // bares tradicionais ficam na aba Restaurantes (nao duplicar aqui)
+        atracoes = (await resposta.json()).filter(a => !(a.tags || []).includes("bares"));
         renderizar(atracoes);
     } catch (erro) {
         console.error("Erro ao carregar atrações:", erro);
@@ -73,7 +81,15 @@ function renderizar(lista) {
     });
 }
 
+function mostrarNota(tag) {
+    const el = document.getElementById("nota-categoria");
+    const texto = NOTAS_CATEGORIA[(tag || "").toLowerCase()];
+    el.textContent = texto || "";
+    el.hidden = !texto;
+}
+
 function filtrarPorExperiencia(tag) {
+    mostrarNota(tag);
     if (tag === "Todos" || !tag) {
         renderizar(atracoes);
         return;

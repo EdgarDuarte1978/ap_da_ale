@@ -1,6 +1,5 @@
 {
-  "_ajuda": "UNICO arquivo a editar para trocar de imovel/cidade. Os scripts leem daqui. Cada categoria: [consulta no Google, tipo do Places (ou null), tag do filtro, quantidade opcional].",
-
+  "_ajuda": "UNICO arquivo a editar para trocar de imovel/cidade. Cada categoria: [consulta(s) no Google (texto ou lista), tipo do Places, tag do filtro, quantidade opcional (ou null), raio maximo em metros opcional (filtro real de distancia)].",
   "imovel": {
     "nome": "Ap da Alê",
     "anfitria": "Alessandra",
@@ -13,31 +12,155 @@
     "google": "https://share.google/uuVBnbDMF6iq38gbg",
     "telefone": "(13) 98822-0860"
   },
-
   "cidade": {
     "nome": "Santos",
     "filtro_endereco": ", santos - sp",
     "raio_busca_m": 8000
   },
-
-  "excluir_nomes": ["Mercado Municipal"],
-
+  "excluir_nomes": [
+    "Mercado Municipal",
+    "Preciosa Stones",
+    "Safari Ball",
+    "Casa (Fernando)",
+    "Mirante sushi",
+    "Edifício Mirante da Praia",
+    "Neighborhood",
+    "Santos Garden",
+    "Parque dos Morros",
+    "Funicular",
+    "Novo Quebra-Mar",
+    "Travessia",
+    "Balsa",
+    "Hidroviário",
+    "Ponte Edgard",
+    "Santos Store"
+  ],
   "restaurantes": {
-    "Frutos do Mar":    ["restaurante de frutos do mar e peixes em Santos",                "restaurant", "frutos-do-mar"],
-    "Pizzaria":         ["pizzaria em Santos",                                              "restaurant", "pizza"],
-    "Carnes":           ["churrascaria e restaurante de carnes e grelhados em Santos",      "restaurant", "carnes"],
-    "Brasileira":       ["restaurante de comida brasileira e regional em Santos",           "restaurant", "brasileira"],
-    "Cafés e Padarias": ["cafeteria, padaria e confeitaria em Santos",                      "cafe",       "cafés"]
+    "Frutos do Mar": [
+      "restaurante de frutos do mar e peixes em Santos",
+      "restaurant",
+      "frutos-do-mar"
+    ],
+    "Pizzaria": [
+      [
+        "pizzaria em Santos",
+        "melhores pizzarias de Santos",
+        "pizza no forno a lenha em Santos",
+        "pizzaria tradicional Santos",
+        "pizzaria no Gonzaga Santos",
+        "pizzaria no Boqueirão Santos",
+        "pizzaria no Embaré Santos",
+        "pizzaria em José Menino Santos"
+      ],
+      "restaurant",
+      "pizza",
+      15
+    ],
+    "Carnes": [
+      "churrascaria e restaurante de carnes e grelhados em Santos",
+      "restaurant",
+      "carnes"
+    ],
+    "Brasileira": [
+      "restaurante de comida brasileira e regional em Santos",
+      "restaurant",
+      "brasileira"
+    ],
+    "Cafés e Padarias": [
+      "cafeteria, padaria e confeitaria em Santos",
+      "cafe",
+      "cafés"
+    ]
   },
-
   "atracoes": {
-    "Orla e Praias":      ["praias e jardins da orla em Santos",                             "tourist_attraction", "orla"],
-    "Passeios Clássicos": ["principais pontos turísticos de Santos",                         "tourist_attraction", "passeios"],
-    "Museus e Cultura":   ["museus e centros culturais em Santos",                           "museum",             "cultura"],
-    "Parques e Mirantes": ["parques, jardins, mirantes e morros em Santos",                  "park",               "parques"],
-    "Passeios no Mar":    ["passeios de barco, aquário e atividades no mar em Santos",       "tourist_attraction", "mar"],
-    "Compras":            ["shoppings e centros de compras em Santos",                       "shopping_mall",      "compras"],
-    "Supermercados":      ["supermercado em Santos",                                         "supermarket",        "supermercados"],
-    "Farmácias":          ["farmácia 24 horas em Santos",                                    "pharmacy",           "farmacias", 5]
+    "Orla, Praias e Jardins": [
+      [
+        "praia do Gonzaga Santos",
+        "praia do José Menino Santos",
+        "praia do Embaré Santos",
+        "praia da Aparecida Santos",
+        "praia da Ponta da Praia Santos",
+        "praia do Boqueirão Santos",
+        "praia da Pompeia Santos",
+        "Jardins da Orla de Santos"
+      ],
+      "tourist_attraction",
+      "orla"
+    ],
+    "Bares Tradicionais": [
+      [
+        "bar tradicional em Santos",
+        "boteco tradicional em Santos",
+        "Bar do Toninho Santos Epitácio Pessoa",
+        "Bar dos Amigos Santos Pedro Lessa",
+        "Bar Galo Quente Santos",
+        "bar com petiscos e chope em Santos",
+        "bar tradicional no Gonzaga Santos",
+        "bar tradicional no Boqueirão Santos",
+        "bar tradicional no Embaré Santos"
+      ],
+      "bar",
+      "bares"
+    ],
+    "Passeios Clássicos": [
+      [
+        "principais pontos turísticos de Santos",
+        "Aquário Municipal de Santos",
+        "Bondinho Monte Serrat Santos",
+        "Teatro Guarany Santos",
+        "Outeiro de Santa Catarina Santos",
+        "Mercado de Peixe de Santos"
+      ],
+      "tourist_attraction",
+      "passeios"
+    ],
+    "Museus e Cultura": [
+      [
+        "museus e centros culturais em Santos",
+        "Museu de Pesca Santos",
+        "Pinacoteca Benedicto Calixto Santos"
+      ],
+      "museum",
+      "cultura"
+    ],
+    "Passeios no Mar": [
+      [
+        "passeio de escuna em Santos",
+        "passeio de barco e lancha em Santos",
+        "travessia de balsa Santos Guarujá"
+      ],
+      "tourist_attraction",
+      "mar",
+      5
+    ],
+    "Compras": [
+      "shoppings e centros de compras em Santos",
+      "shopping_mall",
+      "compras"
+    ],
+    "Supermercados": [
+      "supermercado",
+      "supermarket",
+      "supermercados",
+      null,
+      2200
+    ],
+    "Farmácias": [
+      "farmácia",
+      "pharmacy",
+      "farmacias",
+      5,
+      2200
+    ]
+  },
+  "excluir_nomes_exatos": [
+    "Praia Jose Menino",
+    "Praia do José Menino",
+    "Jardins da Orla de Santos"
+  ],
+  "excluir_por_categoria": {
+    "Pizzaria": [
+      "Padaria"
+    ]
   }
 }

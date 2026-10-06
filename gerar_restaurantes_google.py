@@ -25,14 +25,15 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-from _places_utils import CONFIG, buscar_categoria_ampla, montar_item_comum, obter_api_key_validada, selecionar_top_n
+from _places_utils import CONFIG, buscar_categoria_ampla, excluir_da_categoria, filtrar_por_distancia, montar_item_comum, obter_api_key_validada, selecionar_top_n
 
 ROOT = Path(__file__).resolve().parent
 JSON_PATH = ROOT / "restaurantes.json"
 
 # categoria -> (consulta, tipo Places, tag)
 CATEGORIAS = {k: tuple(v[:3]) for k, v in CONFIG["restaurantes"].items()}
-QUANTIDADE_ESPECIAL = {k: v[3] for k, v in CONFIG["restaurantes"].items() if len(v) > 3}
+QUANTIDADE_ESPECIAL = {k: v[3] for k, v in CONFIG["restaurantes"].items() if len(v) > 3 and v[3]}
+RAIO_ESPECIAL = {k: v[4] for k, v in CONFIG["restaurantes"].items() if len(v) > 4 and v[4]}
 
 
 def main():
@@ -50,8 +51,11 @@ def main():
 
     for categoria, (query, tipo, tag) in CATEGORIAS.items():
         print(f"\n=== {categoria} ===  \"{query}\"")
-        candidatos = buscar_categoria_ampla(query, tipo, api_key)
-        print(f"  {len(candidatos)} candidatos brutos encontrados")
+        candidatos = buscar_categoria_ampla(query, tipo, api_key, RAIO_ESPECIAL.get(categoria))
+        candidatos = excluir_da_categoria(candidatos, categoria)
+        if categoria in RAIO_ESPECIAL:
+            candidatos = filtrar_por_distancia(candidatos, RAIO_ESPECIAL[categoria])
+        print(f"  {len(candidatos)} candidatos {'a ate ' + str(RAIO_ESPECIAL[categoria]) + ' m do imovel' if categoria in RAIO_ESPECIAL else 'brutos'} encontrados")
 
         meta = QUANTIDADE_ESPECIAL.get(categoria, args.por_categoria)
         escolhidos, piso = selecionar_top_n(candidatos, meta, usados)
@@ -99,6 +103,17 @@ def main():
         backup = ROOT / f"restaurantes_backup_{datetime.now():%Y%m%d_%H%M%S}.json"
         backup.write_text(JSON_PATH.read_text(encoding="utf-8"), encoding="utf-8")
         print(f"Backup salvo em: {backup}")
+
+    # preserva as fotos ja baixadas (casando pelo place_id) - regerar a lista nao pode apagar fotos
+    if JSON_PATH.exists():
+        antigas = {i.get("place_id"): i["foto"] for i in json.loads(JSON_PATH.read_text(encoding="utf-8")) if i.get("foto")}
+        mantidas = 0
+        for item in resultado:
+            foto = antigas.get(item.get("place_id"))
+            if foto and (ROOT / foto).exists():
+                item["foto"] = foto
+                mantidas += 1
+        print(f"Fotos ja baixadas preservadas: {mantidas}")
 
     JSON_PATH.write_text(json.dumps(resultado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\nrestaurantes.json gravado com {len(resultado)} itens.")

@@ -34,6 +34,7 @@ def slugificar(nome):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("consulta")
+    ap.add_argument("--lista", choices=["restaurantes", "atracoes"], default="restaurantes", help="em qual lista adicionar")
     ap.add_argument("--categoria", required=True)
     ap.add_argument("--tag", required=True)
     ap.add_argument("--escolher", type=int, help="numero do resultado a adicionar")
@@ -41,6 +42,8 @@ def main():
     args = ap.parse_args()
 
     api_key = obter_api_key_validada()
+    json_path = ROOT / f"{args.lista}.json"
+    pasta_fotos = ROOT / f"{args.lista}_fotos"
     achados = [l for l in buscar_texto(args.consulta, api_key) if endereco_na_cidade(l)][:6]
     if not achados:
         print("Nada encontrado na cidade configurada para essa busca.")
@@ -55,7 +58,7 @@ def main():
         return
 
     lugar = achados[args.escolher - 1]
-    itens = json.loads(JSON_PATH.read_text(encoding="utf-8"))
+    itens = json.loads(json_path.read_text(encoding="utf-8"))
     if any(it.get("place_id") == lugar["id"] for it in itens):
         print("Esse lugar ja esta na lista.")
         return
@@ -67,10 +70,10 @@ def main():
 
     dados, motivo = escolher_foto_sem_rosto(lugar["id"], api_key)
     if dados:
-        PASTA_FOTOS.mkdir(exist_ok=True)
+        pasta_fotos.mkdir(exist_ok=True)
         slug = slugificar(item["nome"])
-        (PASTA_FOTOS / f"{slug}.jpg").write_bytes(dados)
-        item["foto"] = f"restaurantes_fotos/{slug}.jpg"
+        (pasta_fotos / f"{slug}.jpg").write_bytes(dados)
+        item["foto"] = f"{args.lista}_fotos/{slug}.jpg"
     else:
         print(f"Sem foto automatica: {motivo}")
 
@@ -79,11 +82,11 @@ def main():
         print("\n(dry-run - falta --gravar)")
         return
 
-    backup = ROOT / f"restaurantes_backup_{datetime.now():%Y%m%d_%H%M%S}.json"
-    backup.write_text(JSON_PATH.read_text(encoding="utf-8"), encoding="utf-8")
+    backup = ROOT / f"{args.lista}_backup_{datetime.now():%Y%m%d_%H%M%S}.json"
+    backup.write_text(json_path.read_text(encoding="utf-8"), encoding="utf-8")
     itens.append(item)
-    JSON_PATH.write_text(json.dumps(itens, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"\nAdicionado. restaurantes.json agora tem {len(itens)} itens. Backup: {backup.name}")
+    json_path.write_text(json.dumps(itens, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"\nAdicionado. {json_path.name} agora tem {len(itens)} itens. Backup: {backup.name}")
 
 
 if __name__ == "__main__":

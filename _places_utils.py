@@ -17,6 +17,14 @@ import unicodedata
 
 import requests
 
+# Windows grava saida redirecionada (> arquivo.txt) em cp1252, que nao tem acentos/simbolos
+# como a estrela. Forca UTF-8 para nenhum script quebrar ao imprimir nomes de lugares.
+for _fluxo in (sys.stdout, sys.stderr):
+    try:
+        _fluxo.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 
 def obter_api_key_validada():
     """Le GOOGLE_PLACES_API_KEY do ambiente e valida que e' um valor limpo
@@ -64,6 +72,7 @@ RAIO_BUSCA_M = float(CONFIG["cidade"]["raio_busca_m"])
 
 FIELD_MASK = ",".join([
     "places.id",
+    "places.location",
     "places.displayName",
     "places.formattedAddress",
     "places.rating",
@@ -97,7 +106,7 @@ def fama_score(lugar):
     return nota * math.log10(avaliacoes + 1)
 
 
-def buscar_texto(query, api_key, tipo=None):
+def buscar_texto(query, api_key, tipo=None, raio=None):
     payload = {
         "textQuery": query,
         "languageCode": "pt-BR",
@@ -105,7 +114,7 @@ def buscar_texto(query, api_key, tipo=None):
         "locationBias": {
             "circle": {
                 "center": {"latitude": CENTRO_LAT, "longitude": CENTRO_LNG},
-                "radius": RAIO_BUSCA_M,
+                "radius": float(raio or RAIO_BUSCA_M),
             }
         },
     }
@@ -122,21 +131,23 @@ def buscar_texto(query, api_key, tipo=None):
     return resp.json().get("places", [])
 
 
-def buscar_categoria_ampla(query, tipo, api_key):
+def buscar_categoria_ampla(query, tipo, api_key, raio=None):
     """Busca com o tipo (mais preciso) E sem tipo (mais amplo), mescla por place_id.
-    Isso evita perder lugares famosos que o Google classifica num tipo diferente
-    do esperado (ex.: um café que a API não marca como 'cafe')."""
+    'query' pode ser um texto ou uma LISTA de textos (varias buscas somadas na mesma categoria).
+    'raio' (metros) sobrescreve o raio padrao - util para mercado/farmacia, que so interessam perto."""
     vistos = {}
-    for t in (tipo, None):
-        try:
-            lugares = buscar_texto(query, api_key, tipo=t)
-        except requests.HTTPError:
-            lugares = []
-        for l in lugares:
-            pid = l.get("id")
-            if pid and pid not in vistos:
-                vistos[pid] = l
-        time.sleep(0.15)
+    consultas = query if isinstance(query, list) else [query]
+    for q in consultas:
+        for t in (tipo, None):
+            try:
+                lugares = buscar_texto(q, api_key, tipo=t, raio=raio)
+            except requests.HTTPError:
+                lugares = []
+            for l in lugares:
+                pid = l.get("id")
+                if pid and pid not in vistos:
+                    vistos[pid] = l
+            time.sleep(0.15)
     return list(vistos.values())
 
 
@@ -148,7 +159,9 @@ def endereco_na_cidade(lugar):
 def nome_excluido(lugar):
     """True se o nome contem algum item de 'excluir_nomes' do config (ex.: lugares que o dono nao quer)."""
     nome = normalizar((lugar.get("displayName") or {}).get("text", ""))
-    return any(normalizar(x) in nome for x in CONFIG.get("excluir_nomes", []))
+    if any(normalizar(x) in nome for x in CONFIG.get("excluir_nomes", [])):
+        return True
+    return nome in {normalizar(x) for x in CONFIG.get("excluir_nomes_exatos", [])}
 
 
 def operacional(lugar):
@@ -281,3 +294,31 @@ def montar_item_comum(lugar):
     if preco:
         item["preco"] = preco
     return item
+
+
+def distancia_m(lat1, lng1, lat2, lng2):
+    """Distancia em metros entre dois pontos (formula de haversine)."""
+    r = 6371000.0
+    f1, f2 = math.radians(lat1), math.radians(lat2)
+    a = math.sin((f2 - f1) / 2) ** 2 + math.cos(f1) * math.cos(f2) * math.sin(math.radians(lng2 - lng1) / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def filtrar_por_distancia(lugares, raio_m):
+    """Mantem so os lugares a no maximo raio_m do imovel (o 'raio' da busca do Google e
+    apenas uma preferencia, nao um corte - por isso o corte e feito aqui)."""
+    saida = []
+    for l in lugares:
+        loc = l.get("location") or {}
+        if "latitude" in loc and distancia_m(CENTRO_LAT, CENTRO_LNG, loc["latitude"], loc["longitude"]) <= raio_m:
+            saida.append(l)
+    return saida
+
+
+def excluir_da_categoria(candidatos, categoria):
+    """Remove candidatos cujo nome contem algum item de 'excluir_por_categoria[categoria]' do config
+    (ex.: uma padaria que o Google devolve na busca de pizzarias)."""
+    termos = [normalizar(x) for x in CONFIG.get("excluir_por_categoria", {}).get(categoria, [])]
+    if not termos:
+        return candidatos
+    return [l for l in candidatos if not any(x in normalizar((l.get("displayName") or {}).get("text", "")) for x in termos)]

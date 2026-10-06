@@ -1,1 +1,883 @@
-[]
+[
+  {
+    "nome": "Mercado de Peixe de Santos",
+    "nota": 4.5,
+    "avaliacoes": 19865,
+    "endereco": "Av. Gov. Mário Covas Júnior, 3050 - Ponta da Praia, Santos - SP, 11030-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8454345506781031655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJwR_iAxoCzpQR52waBHLeU3U",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/mercado-de-peixe-de-santos.jpg"
+  },
+  {
+    "nome": "Tasca do Porto",
+    "nota": 4.7,
+    "avaliacoes": 4056,
+    "endereco": "R. Quinze de Novembro, 115 - Centro, Santos - SP, 11010-151, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17747793123745880772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ83-4xZAczpQRxFr-b9DTTPY",
+    "preco": "$$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/tasca-do-porto.jpg"
+  },
+  {
+    "nome": "Restaurante Olímpia",
+    "nota": 4.5,
+    "avaliacoes": 4607,
+    "endereco": "Av. Pres. Wilson, 92 - José Menino, Santos - SP, 11065-200, Brasil",
+    "descricao": "Restaurante foca nas delícias do mar, carnes, massas e aves em meio a trânsito intenso de bandejas de chope.",
+    "maps": "https://maps.google.com/?cid=5372072427717479845&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ40K1xBcDzpQRpU3FGWlvjUo",
+    "preco": "$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/restaurante-olimpia.jpg"
+  },
+  {
+    "nome": "Capriccio Restaurante",
+    "nota": 4.7,
+    "avaliacoes": 2600,
+    "endereco": "Av. Bernardino de Campos, 563 - Gonzaga, Santos - SP, 11065-003, Brasil",
+    "descricao": "Saladas, pratos quentes e grelhados, mais frutas e sobremesas, em restaurante self-service com clima familiar.",
+    "maps": "https://maps.google.com/?cid=16761123043904314889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJx5dGtRYDzpQRCd6HrJp4m-g",
+    "preco": "$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/capriccio-restaurante.jpg"
+  },
+  {
+    "nome": "Naus",
+    "nota": 4.6,
+    "avaliacoes": 3025,
+    "endereco": "R. Tolentino Filgueiras, 55 - Gonzaga, Santos - SP, 11060-471, Brasil",
+    "descricao": "Frutos do mar, carnes e pratos italianos, mais sanduíches e drinques, em espaço temático com atmosfera alegre.",
+    "maps": "https://maps.google.com/?cid=2959796198757995602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJj_iICJMDzpQRUpSFCvZOEyk",
+    "preco": "$$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/naus.jpg"
+  },
+  {
+    "nome": "Box do Santista",
+    "nota": 4.6,
+    "avaliacoes": 2825,
+    "endereco": "Av. Gov. Mário Covas Júnior, 3050 - Box 01, 03 e 04 - Ponta da Praia, Santos - SP, 11020-300, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6214039802867541254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJHy_eBRoCzpQRBuUO_ka0PFY",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/box-do-santista.jpg"
+  },
+  {
+    "nome": "Porta do Sol",
+    "nota": 4.7,
+    "avaliacoes": 2060,
+    "endereco": "Av. São Francisco, 210/212 - Centro, Santos - SP, 11013-202, Brasil",
+    "descricao": "Frutos do mar grelhados e ensopados generosos servidos em um ambiente arejado com decoração contemporânea.",
+    "maps": "https://maps.google.com/?cid=5136583020601622314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJE2-mDH8DzpQRKj9D3grPSEc",
+    "preco": "$$$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/porta-do-sol.jpg",
+    "nome_google": "Porta do Sol - Restaurante do Paquito"
+  },
+  {
+    "nome": "Madê Cozinha Autoral",
+    "nota": 4.6,
+    "avaliacoes": 2367,
+    "endereco": "Av. Dr. Epitácio Pessoa, 716 - Ponta da Praia, Santos - SP, 11030-602, Brasil",
+    "descricao": "Gastronomia contemporânea e inusitada em ambiente moderno com cozinha aberta, iluminação natural e arte.",
+    "maps": "https://maps.google.com/?cid=9419344869782806460&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJVwdvuAYDzpQRvF9N1EA8uII",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/made-cozinha-autoral.jpg"
+  },
+  {
+    "nome": "Pier 142",
+    "nota": 4.8,
+    "avaliacoes": 1554,
+    "endereco": "R. João Caetano, 142 - Campo Grande, Santos - SP, 11070-311, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2736989400458733621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJpzP4Lr0DzpQRNShayFu9-yU",
+    "preco": "$$",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/pier-142.jpg"
+  },
+  {
+    "nome": "Mar Del Plata",
+    "nota": 4.5,
+    "avaliacoes": 2169,
+    "endereco": "Av. Rei Pelé, 137/139 - Ponta da Praia, Santos - SP, 11030-000, Brasil",
+    "descricao": "Casa especializada em peixes e frutos do mar oferece desde moquecas até receitas com inspiração internacional.",
+    "maps": "https://maps.google.com/?cid=13177795480370729337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJm1aU4xICzpQRedE-oivv4LY",
+    "tags": [
+      "frutos-do-mar"
+    ],
+    "categoria": "Frutos do Mar",
+    "subcategoria": "Frutos do Mar",
+    "foto": "restaurantes_fotos/mar-del-plata.jpg"
+  },
+  {
+    "nome": "Big Pizzas",
+    "nota": 4.8,
+    "avaliacoes": 6647,
+    "endereco": "R. Mal. Hermes, n° 7 - Boqueirão, Santos - SP, 11025-040, Brasil",
+    "descricao": "Restaurante casual que oferece pizzas e sobremesas generosas em uma área de refeições agradável.",
+    "maps": "https://maps.google.com/?cid=10592186804640649850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJv4mviqYDzpQRepIvbccB_5I",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/big-pizzas.jpg"
+  },
+  {
+    "nome": "Van Gogh",
+    "nota": 4.7,
+    "avaliacoes": 6842,
+    "endereco": "Av. Mal. Floriano Peixoto, 314 - José Menino, Santos - SP, 11060-302, Brasil",
+    "descricao": "Restaurante reúne pratos triviais e mais elaborados, como também pizzas, em ambiente informal e familiar.",
+    "maps": "https://maps.google.com/?cid=7369518459971694971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJzfxtiz0DzpQRe_FLdP7JRWY",
+    "preco": "$$$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/van-gogh.jpg"
+  },
+  {
+    "nome": "Cantina Babbo Américo",
+    "nota": 4.7,
+    "avaliacoes": 6257,
+    "endereco": "Av. Anna Costa, 404 - Gonzaga, Santos - SP, 11060-002, Brasil",
+    "descricao": "Há décadas, a gastronomia servida são pastas e pizzas, também carnes e peixes em ambiente clássico e familiar.",
+    "maps": "https://maps.google.com/?cid=16152128772558275586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJVVVhFA4DzpQRAsSzforjJ-A",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/cantina-babbo-americo.jpg"
+  },
+  {
+    "nome": "Empório Padaria José Menino",
+    "nota": 4.4,
+    "avaliacoes": 5992,
+    "endereco": "Av. Pres. Wilson, 192 - José Menino, Santos - SP, 11065-201, Brasil",
+    "descricao": "Mercearia ampla com padaria e restaurante que serve pratos assados, hambúrgueres e pizzas.",
+    "maps": "https://maps.google.com/?cid=3564710264236538846&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJDaqyC3wDzpQR3vsBQxlleDE",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/emporio-padaria-jose-menino.jpg"
+  },
+  {
+    "nome": "Cantina di Lucca",
+    "nota": 4.6,
+    "avaliacoes": 3229,
+    "endereco": "R. Tolentino Filgueiras, 80 - Gonzaga, Santos - SP, 11060-471, Brasil",
+    "descricao": "Restaurante italiano tradicional e climatizado serve pratos de massas fumegantes com carnes e frutos do mar.",
+    "maps": "https://maps.google.com/?cid=16453212599310773904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJeesTng8DzpQRkG7mq6-NVeQ",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/cantina-di-lucca.jpg"
+  },
+  {
+    "nome": "Sideral",
+    "nota": 4.6,
+    "avaliacoes": 2858,
+    "endereco": "Av. Gen. Francisco Glicério, Glicério, 562 - Pompéia, Santos - SP, 11065-402, Brasil",
+    "descricao": "Restaurante tradicional serve o buffet por quilo no almoço, e à noite pizzas e pratos variados à la carte.",
+    "maps": "https://maps.google.com/?cid=4422515641034590441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJW5OLJD4DzpQR6ch5RYvuXz0",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/sideral.jpg",
+    "nome_google": "Sideral Restaurante e Pizzaria"
+  },
+  {
+    "nome": "Trianon Restaurante e Pizzaria",
+    "nota": 4.6,
+    "avaliacoes": 2734,
+    "endereco": "Av. dos Bancários, 109 - Ponta da Praia, Santos - SP, 11030-301, Brasil",
+    "descricao": "Restaurante de frutos do mar possui cardápio variado da culinária da Itália, em ambiente amplo e familiar.",
+    "maps": "https://maps.google.com/?cid=7534687230921920421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ8yDqdRQCzpQRpc_FtB2WkGg",
+    "preco": "$$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/trianon-restaurante-e-pizzaria.jpg"
+  },
+  {
+    "nome": "Restaurante e Pizzaria Santa Rita",
+    "nota": 4.5,
+    "avaliacoes": 3165,
+    "endereco": "Av. Sen. Dantas, 344 - Estuário, Santos - SP, 11015-210, Brasil",
+    "descricao": "Restaurante com forno à lenha serve pizzas de diversos sabores em mesas ou para entrega.",
+    "maps": "https://maps.google.com/?cid=14654842747437201343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ1T9G27EDzpQRvzc0iNV1YMs",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/restaurante-e-pizzaria-santa-rita.jpg"
+  },
+  {
+    "nome": "Cantina Liliana",
+    "nota": 4.4,
+    "avaliacoes": 3471,
+    "endereco": "Av. Washington Luís, 302 - Gonzaga, Santos - SP, 11055-000, Brasil",
+    "descricao": "Cardápio de pizzas e massas, além de carnes e pescados, em ambiente contemporâneo com luz natural e plantas.",
+    "maps": "https://maps.google.com/?cid=2439150169167545965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJVxjylAsDzpQRbcYQ2yea2SE",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/cantina-liliana.jpg"
+  },
+  {
+    "nome": "PizzaCo Pizzaria",
+    "nota": 4.6,
+    "avaliacoes": 2309,
+    "endereco": "Av. Siqueira Campos, 606 - Piso superior - Macuco, Santos - SP, 11045-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3002855549300584779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJdejlor4DzpQRSzHfVzZJrCk",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/pizzaco-pizzaria.jpg"
+  },
+  {
+    "nome": "Kokimbos",
+    "nota": 4.6,
+    "avaliacoes": 2161,
+    "endereco": "R. da Paz, 61 - Boqueirão, Santos - SP, 11045-520, Brasil",
+    "descricao": "No amplo salão de ambiente familiar, a clientela dispõe de pizzas variadas e picanha com acompanhamentos.",
+    "maps": "https://maps.google.com/?cid=6390644935241506233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJP_xZbAEDzpQRuR24orUhsFg",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/kokimbos.jpg"
+  },
+  {
+    "nome": "Acrópole Restaurante & Pizzaria",
+    "nota": 4.6,
+    "avaliacoes": 1770,
+    "endereco": "Av. Senador Pinheiro Machado, 1008 - José Menino, Santos - SP, 11065-605, Brasil",
+    "descricao": "Bar gastronômico que serve pizzas tradicionais e especiais com opções brasileiras à la carte e sacada coberta.",
+    "maps": "https://maps.google.com/?cid=2203719466280415426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJz0gSKjwDzpQRwvBBxC0vlR4",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/acropole-restaurante-pizzaria.jpg"
+  },
+  {
+    "nome": "Mais Passarela",
+    "nota": 4.4,
+    "avaliacoes": 2375,
+    "endereco": "Av. Dr. Epitácio Pessoa, 153 - Embaré, Santos - SP, 11045-300, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17861848279713374154&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJIb8ihFMCzpQRyt880F8I4vc",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/mais-passarela.jpg"
+  },
+  {
+    "nome": "MassenariA",
+    "nota": 4.3,
+    "avaliacoes": 2537,
+    "endereco": "Avenida Francisco Glicério, 247/249 - Gonzaga, Santos - SP, 11065-401, Brasil",
+    "descricao": "Pizzaria tranquila com ambiente animado que serve tortas caseiras, pratos tradicionais e cerveja.",
+    "maps": "https://maps.google.com/?cid=15068242485963589997&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJR_cibhIDzpQRbQlPvbQmHdE",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/massenaria.jpg",
+    "nome_google": "MassenariA Restaurante e Pizzaria"
+  },
+  {
+    "nome": "Graminha Pizzaria",
+    "nota": 4.5,
+    "avaliacoes": 1714,
+    "endereco": "Av. Siqueira Campos, 348 - Boqueirão, Santos - SP, 11045-201, Brasil",
+    "descricao": "Recheios criativos, massa fininha e quadrada, clima tranquilo, ambiente mescla o rústico aos delicados tons.",
+    "maps": "https://maps.google.com/?cid=14286804021718556769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJTV5WEgwDzpQRYSAoIpDsRMY",
+    "preco": "$$",
+    "tags": [
+      "pizza"
+    ],
+    "categoria": "Pizzaria",
+    "subcategoria": "Pizzaria",
+    "foto": "restaurantes_fotos/graminha-pizzaria.jpg",
+    "nome_google": "Graminha Pizzaria Santos"
+  },
+  {
+    "nome": "Dona Nice Steakhouse",
+    "nota": 4.9,
+    "avaliacoes": 3926,
+    "endereco": "Av. Gov. Fernando Costa, 199 - Ponta da Praia, Santos - SP, 11030-180, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8090992770097938059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJCYXYh8oDzpQRi_7wdQ77SHA",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/dona-nice-steakhouse.jpg"
+  },
+  {
+    "nome": "Mania de Churrasco Buffet & Pizza",
+    "nota": 4.9,
+    "avaliacoes": 2702,
+    "endereco": "R. Alexandre Martins, 80 - Shopping Praiamar - Centro, Santos - SP, 11025-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=10110882628214444820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJm1I5Iw8DzpQRFNNjPC4SUYw",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/mania-de-churrasco-buffet-pizza.jpg",
+    "nome_google": "Restaurante Mania de Churrasco! Buffet & Pizza"
+  },
+  {
+    "nome": "Mania de Churrasco Prime Steak & Burger",
+    "nota": 4.6,
+    "avaliacoes": 3776,
+    "endereco": "R. Alexandre Martins, 80 - loja 236A - Centro, Santos - SP, 11025-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7157753954901394368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJbcEpV08CzpQRwIOLb0xzVWM",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/mania-de-churrasco-prime-steak-burger.jpg",
+    "nome_google": "Mania de Churrasco| Prime Steak & Burger"
+  },
+  {
+    "nome": "Churrascaria Tertúlia",
+    "nota": 4.3,
+    "avaliacoes": 5736,
+    "endereco": "Av. Bartholomeu de Gusmão, 187 - Ponta da Praia, Santos - SP, 11030-500, Brasil",
+    "descricao": "O salão é palco do rodízio de carnes nobres, buffet de saladas e guarnições, em meio a ambiente de burburinho.",
+    "maps": "https://maps.google.com/?cid=13577782583299686024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJx__neEECzpQRiD4QQ1L5bbw",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/churrascaria-tertulia.jpg"
+  },
+  {
+    "nome": "Brasamar Churrascaria & Choperia",
+    "nota": 4.9,
+    "avaliacoes": 1505,
+    "endereco": "Av. Conselheiro Nébias, 637 - Boqueirão, Santos - SP, 11045-003, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16982105355061411370&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ5Yxjwz0DzpQRKr6xatiOrOs",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/brasamar-churrascaria-choperia.jpg"
+  },
+  {
+    "nome": "Boteco Seu Tijuca",
+    "nota": 4.7,
+    "avaliacoes": 1906,
+    "endereco": "Av. Washington Luís, 386 - Gonzaga, Santos - SP, 11055-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14598076245898861604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ7_Y2B3QDzpQRJJzecADJlso",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/boteco-seu-tijuca.jpg"
+  },
+  {
+    "nome": "Churrascaria Sabor do Sul Grill",
+    "nota": 4.6,
+    "avaliacoes": 1771,
+    "endereco": "Av. Siqueira Campos, 561 - Embaré, Santos - SP, 11045-201, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5582707823155953609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ-1J3P60DzpQRyT8BzC_DeU0",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/churrascaria-sabor-do-sul-grill.jpg"
+  },
+  {
+    "nome": "Churrascaria O Costelão",
+    "nota": 4.5,
+    "avaliacoes": 2072,
+    "endereco": "Av. Senador Pinheiro Machado, 129 - Vila Mathias, Santos - SP, 11075-001, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3981454182212868426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJTS5DM2UDzpQRSplK7Hv3QDc",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/churrascaria-o-costelao.jpg"
+  },
+  {
+    "nome": "Marruá - Churrascaria Brasileira",
+    "nota": 4.6,
+    "avaliacoes": 1226,
+    "endereco": "R. Tolentino Filgueiras, 73 - Gonzaga, Santos - SP, 11060-470, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1721568458767908810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJNUHMJOoDzpQRyr9gWWQ95Bc",
+    "preco": "$$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/marrua-churrascaria-brasileira.jpg"
+  },
+  {
+    "nome": "Ao Chopp do Gonzaga",
+    "nota": 4.3,
+    "avaliacoes": 1712,
+    "endereco": "Av. Anna Costa, 512 - Gonzaga, Santos - SP, 11060-002, Brasil",
+    "descricao": "Tradicional churrascaria combina o ambiente moderno com a seleção clássica de carnes, bebidas e sobremesas.",
+    "maps": "https://maps.google.com/?cid=14054003701730921505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ0R02WwUDzpQRIUyyyefZCcM",
+    "preco": "$$",
+    "tags": [
+      "carnes"
+    ],
+    "categoria": "Carnes",
+    "subcategoria": "Carnes",
+    "foto": "restaurantes_fotos/ao-chopp-do-gonzaga.jpg"
+  },
+  {
+    "nome": "Casa D'Boa",
+    "nota": 4.7,
+    "avaliacoes": 3770,
+    "endereco": "Av. Dr. Epitácio Pessoa, 179 - Embaré, Santos - SP, 11045-301, Brasil",
+    "descricao": "A casa oferece pratos da América Latina, como ceviches e variados tipos de carne, em ambiente aconchegante.",
+    "maps": "https://maps.google.com/?cid=10639760861045795099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ1c7iv1MCzpQRGym9mSEGqJM",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/casa-d-boa.jpg"
+  },
+  {
+    "nome": "Esquina do Bacalhau",
+    "nota": 4.6,
+    "avaliacoes": 2755,
+    "endereco": "Av. Mal. Deodoro, 148 - Gonzaga, Santos - SP, 11060-401, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17960447084754261773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ7zgx7xMDzpQRDVf6DXdTQPk",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/esquina-do-bacalhau.jpg"
+  },
+  {
+    "nome": "Dona Angola",
+    "nota": 4.6,
+    "avaliacoes": 2073,
+    "endereco": "R. Jorge Tibiriçá, 26 - Gonzaga, Santos - SP, 11055-250, Brasil",
+    "descricao": "Cozinha refinada e variada de pratos individuais em ambiente convidativo repleto de temas caseiros de época.",
+    "maps": "https://maps.google.com/?cid=17069131924838280029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ1zY5NHsDzpQRXetDrAy94ew",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/dona-angola.jpg",
+    "nome_google": "Dona Angola | Restaurante em Santos"
+  },
+  {
+    "nome": "Restaurante Almeida",
+    "nota": 4.6,
+    "avaliacoes": 1982,
+    "endereco": "Av. Anna Costa, 1 - Vila Mathias, Santos - SP, 11060-001, Brasil",
+    "descricao": "Casa antiga oferece cardápio farto e variado com destaque para a famosa Meca Santista, peixe típico da região.",
+    "maps": "https://maps.google.com/?cid=7637118948318952328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJdV-Dy3sDzpQRiLv0ZTh__Gk",
+    "preco": "$$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/restaurante-almeida.jpg"
+  },
+  {
+    "nome": "Restaurante Rota Nordestina",
+    "nota": 4.5,
+    "avaliacoes": 1859,
+    "endereco": "Av. dos Bancários, 151 - Ponta da Praia, Santos - SP, 11030-301, Brasil",
+    "descricao": "Pratos rápidos, destaque ao escondidinho, baião de dois, queijo coalho com melaço, espaço simples e delivery.",
+    "maps": "https://maps.google.com/?cid=3284769882179835773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJHyDAi-QDzpQRfRc77M3YlS0",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/restaurante-rota-nordestina.jpg"
+  },
+  {
+    "nome": "Restaurante Nordestino Jeremoabo",
+    "nota": 4.5,
+    "avaliacoes": 1551,
+    "endereco": "R. Silva Jardim, 209 - Vila Mathias, Santos - SP, 11015-015, Brasil",
+    "descricao": "Grelhados, frutos do mar, lanches e pratos nordestinos, além de cervejas, em ambiente simples e tradicional.",
+    "maps": "https://maps.google.com/?cid=15952167653027437159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJoytHK58DzpQRZ1otVPZ7Yd0",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/restaurante-nordestino-jeremoabo.jpg"
+  },
+  {
+    "nome": "Vixe Maria",
+    "nota": 4.5,
+    "avaliacoes": 1317,
+    "endereco": "Av. Washington Luís, 72 - Vila Mathias, Santos - SP, 11050-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7964703447570700366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ4ymez3UDzpQRTtjHNZZPiG4",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/vixe-maria.jpg",
+    "nome_google": "Restaurante Vixe Maria - Culinária Nordestina"
+  },
+  {
+    "nome": "Família Santos Gastronomia",
+    "nota": 4.2,
+    "avaliacoes": 1182,
+    "endereco": "R. Paraná, 200 - Vila Mathias, Santos - SP, 11075-320, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6920701263632341257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJnwtAnD8DzpQRCRlnvyFFC2A",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/familia-santos-gastronomia.jpg"
+  },
+  {
+    "nome": "Restaurante Original Santos",
+    "nota": 4.5,
+    "avaliacoes": 545,
+    "endereco": "Av. Anna Costa, 545 - Gonzaga, Santos - SP, 11060-003, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12136684209307943888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ__Jg3G4DzpQR0IPkRvwpbqg",
+    "preco": "$$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/restaurante-original-santos.jpg"
+  },
+  {
+    "nome": "Restaurante Nova Mineira",
+    "nota": 4.4,
+    "avaliacoes": 606,
+    "endereco": "R. Bahia, 115 - Gonzaga, Santos - SP, 11060-450, Brasil",
+    "descricao": "Gastronomia caseira mineira no buffet em ambiente climatizado e descontraído do dia a dia, com piso superior.",
+    "maps": "https://maps.google.com/?cid=12946708298910134650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJm_Sp2A8DzpQRevEjb5ryq7M",
+    "preco": "$",
+    "tags": [
+      "brasileira"
+    ],
+    "categoria": "Brasileira",
+    "subcategoria": "Brasileira",
+    "foto": "restaurantes_fotos/restaurante-nova-mineira.jpg"
+  },
+  {
+    "nome": "Empório Nova Era",
+    "nota": 4.7,
+    "avaliacoes": 12815,
+    "endereco": "R. Cunha Moreira, 210 - Encruzilhada, Santos - SP, 11050-241, Brasil",
+    "descricao": "Culinária afetiva internacional com almoço, sobremesas tradicionais e chá da tarde com doces e salgados.",
+    "maps": "https://maps.google.com/?cid=3135159151863314325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJa9-nMHMDzpQRlbcgSaNSgis",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/emporio-nova-era.jpg"
+  },
+  {
+    "nome": "Padrela",
+    "nota": 4.6,
+    "avaliacoes": 6161,
+    "endereco": "Av. Gen. San Martin, 188 - Ponta da Praia, Santos - SP, 11030-250, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=4980562109376314853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJhdxfmZgDzpQR5T0lr9mCHkU",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/padrela.jpg"
+  },
+  {
+    "nome": "La Banoffeeria",
+    "nota": 4.9,
+    "avaliacoes": 2915,
+    "endereco": "Av. Mal. Floriano Peixoto, 160 - Gonzaga, Santos - SP, 11060-300, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=4889088681319076760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJGac4-UEDzpQRmBNojUCI2UM",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/la-banoffeeria.jpg",
+    "nome_google": "La Banoffeeria Santos - Doceria"
+  },
+  {
+    "nome": "Padaria Bella Villa",
+    "nota": 4.4,
+    "avaliacoes": 4998,
+    "endereco": "R. Goiás, 44 - Boqueirão, Santos - SP, 11050-100, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2325036530747050638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJNSYOeQ4DzpQRjgr8-GcwRCA",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/padaria-bella-villa.jpg"
+  },
+  {
+    "nome": "Abelha Rainha",
+    "nota": 4.7,
+    "avaliacoes": 2712,
+    "endereco": "Av. Anna Costa, 410 - Gonzaga, Santos - SP, 11060-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15869303824255394691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJF_3hZ4ADzpQRg6N9vb8XO9w",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/abelha-rainha.jpg",
+    "nome_google": "Abelha Rainha - Confeitaria Tradicional"
+  },
+  {
+    "nome": "Empório Dom José",
+    "nota": 4.4,
+    "avaliacoes": 3527,
+    "endereco": "R. Conselheiro Lafayette, 3 - Embaré, Santos - SP, 11040-280, Brasil",
+    "descricao": "Restaurante e padaria com variedade de refeições, pizzas, bolos, doces, tortas e lanches, em ambiente simples.",
+    "maps": "https://maps.google.com/?cid=4992405552161068813&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJsVPhsVQCzpQRDZc_F2aWSEU",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/emporio-dom-jose.jpg"
+  },
+  {
+    "nome": "Panificadora Washington Luiz",
+    "nota": 4.6,
+    "avaliacoes": 2389,
+    "endereco": "Av. Washington Luís, 449 - Boqueirão, Santos - SP, 11055-011, Brasil",
+    "descricao": "Casa de pães do dia a dia com área gastronômica de lanches tradicionais e de cafeteria, entre conveniências.",
+    "maps": "https://maps.google.com/?cid=5135823621791134301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJxwHBqAgDzpQRXbLrjV8cRkc",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/panificadora-washington-luiz.jpg"
+  },
+  {
+    "nome": "Casaria Padaria",
+    "nota": 4.4,
+    "avaliacoes": 3111,
+    "endereco": "Av. Conselheiro Nébias, 718 - Boqueirão, Santos - SP, 11045-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6432137987180200073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJX_rIvbADzpQRiQAsoGuLQ1k",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/casaria-padaria.jpg"
+  },
+  {
+    "nome": "Panificadora Roxy",
+    "nota": 4.2,
+    "avaliacoes": 3648,
+    "endereco": "Av. Senador Pinheiro Machado, 997 - José Menino, Santos - SP, 11065-415, Brasil",
+    "descricao": "Fundada em 1940, a casa oferece bolos e panettones caseiros, além de café da manhã e lanches, com lojinha.",
+    "maps": "https://maps.google.com/?cid=10196784060839060639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJE0v21D0DzpQRn2StFRRBgo0",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/panificadora-roxy.jpg"
+  },
+  {
+    "nome": "Panificadora Vera Cruz",
+    "nota": 4.6,
+    "avaliacoes": 1569,
+    "endereco": "R. Carlos Gomes, 252 - Marapé, Santos - SP, 11075-672, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12092504047799125705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJe_f9A0EDzpQRyUYK1lw00ac",
+    "preco": "$$",
+    "tags": [
+      "cafés"
+    ],
+    "categoria": "Cafés e Padarias",
+    "subcategoria": "Cafés e Padarias",
+    "foto": "restaurantes_fotos/panificadora-vera-cruz.jpg"
+  }
+]

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 </header>
 
 <section class="hero">
-    <img class="hero-bg" src="hero_ap_ale.jpg" alt="Vista da praia do Gonzaga, em Santos">
+    <img class="hero-bg" src="hero_ap_ale.jpg?v=2" alt="Pôr do sol na orla de Santos">
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <h2>Descubra Santos</h2>
@@ -47,15 +47,15 @@
             <p>Uma seleção para aproveitar cada dia da sua estadia.</p>
             <div class="intro-features experience-grid" id="filters">
                 <button class="active" onclick="filtrarPorExperiencia('Todos')">Todos</button>
-                <button onclick="filtrarPorExperiencia('orla')">🏖️ Orla e Praias</button>
+                <button onclick="filtrarPorExperiencia('orla')">🏖️ Orla, Praias e Jardins</button>
                 <button onclick="filtrarPorExperiencia('passeios')">🎡 Passeios Clássicos</button>
                 <button onclick="filtrarPorExperiencia('cultura')">🎭 Museus e Cultura</button>
-                <button onclick="filtrarPorExperiencia('parques')">🌳 Parques e Mirantes</button>
                 <button onclick="filtrarPorExperiencia('mar')">⛵ Passeios no Mar</button>
                 <button onclick="filtrarPorExperiencia('compras')">🛍️ Compras</button>
                 <button onclick="filtrarPorExperiencia('supermercados')">🛒 Supermercados</button>
                 <button onclick="filtrarPorExperiencia('farmacias')">💊 Farmácias</button>
             </div>
+            <p id="nota-categoria" class="nota-categoria" hidden></p>
         </div>
     </div>
 </section>
@@ -87,7 +87,7 @@
     </div>
 </footer>
 
-<script src="script_atracoes.js"></script>
+<script src="script_atracoes.js?v=2"></script>
 
 </body>
 

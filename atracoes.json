@@ -1,1 +1,1042 @@
-[]
+[
+  {
+    "nome": "Orla e Jardins da Praia de Santos",
+    "nota": 4.7,
+    "avaliacoes": 15489,
+    "endereco": "Av. Pres. Wilson, 80 - Gonzaga, Santos - SP, 11065-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12702605970923497502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJsen3bz0DzpQRHqimStS4SLA",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/orla-e-jardins-da-praia-de-santos.jpg"
+  },
+  {
+    "nome": "Deck do Pescador",
+    "nota": 4.7,
+    "avaliacoes": 7241,
+    "endereco": "Av. Rei Pelé, s/n - Ponta da Praia, Santos - SP, 11030-401, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5654654910507620509&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJfzv6hWwCzpQRnZg5dK5eeU4",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/deck-do-pescador.jpg"
+  },
+  {
+    "nome": "Jardim Botânico Chico Mendes",
+    "nota": 4.5,
+    "avaliacoes": 4531,
+    "endereco": "R. João Fraccaroli, s/n - Bom Retiro, Santos - SP, 11089-230, Brasil",
+    "descricao": "Diversas espécies de plantas e árvores, além de playground, lagos e trilhas, em parque ecológico urbano.",
+    "maps": "https://maps.google.com/?cid=12545814723254924012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJy32gjEUbzpQR7LJ5LQWwG64",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/jardim-botanico-chico-mendes.jpg",
+    "nome_google": "Jardim Botânico de Santos \"Chico Mendes\""
+  },
+  {
+    "nome": "Praia do José Menino (Canal 1)",
+    "nota": 4.5,
+    "avaliacoes": 3747,
+    "endereco": "4275 - Av. Pres. Wilson, 3995 - José Menino, Santos - SP, 11065-201, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5080919404590825011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJB5rF2DwDzpQRM34GU0cNg0Y",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-do-jose-menino-canal-1.jpg",
+    "nome_google": "Praia do Canal 1 (Praia José Menino)"
+  },
+  {
+    "nome": "Praia do Boqueirão",
+    "nota": 4.5,
+    "avaliacoes": 2740,
+    "endereco": "Praia do Boqueirão - Av. Bartholomeu de Gusmão, s/n - Boqueirão, Santos - SP, 11045-400, Brasil",
+    "descricao": "Extensa praia urbana com aluguel de cadeiras e guarda-sóis, equipamento de recreação e ginástica e quiosques.",
+    "maps": "https://maps.google.com/?cid=9867643473542366408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJRaucdVUCzpQRyMSxSnXp8Ig",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-do-boqueirao.jpg"
+  },
+  {
+    "nome": "Fonte Interativa da Ponta da Praia",
+    "nota": 4.8,
+    "avaliacoes": 573,
+    "endereco": "Av. Rei Pelé - Ponta da Praia, Santos - SP, 11030-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15635825601086974719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJE0RskvoDzpQR_2q_woqc_dg",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/fonte-interativa-da-ponta-da-praia.jpg"
+  },
+  {
+    "nome": "Praia do Embare",
+    "nota": 4.7,
+    "avaliacoes": 396,
+    "endereco": "Praia do Embare, Santos - SP, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5222402391519829266&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJW7NwNlECzpQREp2wPE6zeUg",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-do-embare.jpg"
+  },
+  {
+    "nome": "Praia da Aparecida",
+    "nota": 4.6,
+    "avaliacoes": 295,
+    "endereco": "Praia da Aparecida, Santos - SP, 11030-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14709502336438039983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJyVrk7EQCzpQRr_Uq0nCmIsw",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-da-aparecida.jpg"
+  },
+  {
+    "nome": "Praia da Ponta da Praia",
+    "nota": 4.6,
+    "avaliacoes": 135,
+    "endereco": "Praia da Ponta da Praia, Santos - SP, Brasil",
+    "descricao": "Pequeno trecho da costa de areia com vistas impactantes em uma área histórica e sofisticada com locais culturais.",
+    "maps": "https://maps.google.com/?cid=1763833818044401013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJk1NDBGoCzpQRdYVbJ4Nlehg",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-da-ponta-da-praia.jpg"
+  },
+  {
+    "nome": "Praia da Pompéia",
+    "nota": 4.8,
+    "avaliacoes": 56,
+    "endereco": "Pompéia, Santos - SP, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5468995488063506474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJIS1UyqEDzpQRKkg9oGvG5Us",
+    "tags": [
+      "orla"
+    ],
+    "categoria": "Orla, Praias e Jardins",
+    "foto": "atracoes_fotos/praia-da-pompeia.jpg"
+  },
+  {
+    "nome": "Quiosque Burgman Canal 4",
+    "nota": 4.4,
+    "avaliacoes": 13265,
+    "endereco": "Av. Bartholomeu de Gusmão, S/N - Aparecida, Santos - SP, 11045-401, Brasil",
+    "descricao": "Quiosque descolado de hambúrgueres com área externa tem chope, petiscos e sandubas com acompanhamentos.",
+    "maps": "https://maps.google.com/?cid=601826681710798948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ4yTDrFUCzpQRZGi5qy0eWgg",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/quiosque-burgman-canal-4.jpg"
+  },
+  {
+    "nome": "Bar do Toninho",
+    "nota": 4.5,
+    "avaliacoes": 7331,
+    "endereco": "Av. Dr. Epitácio Pessoa, 241 - Embaré, Santos - SP, 11045-301, Brasil",
+    "descricao": "Boteco animado reúne público variado que toma cerveja e aprecia as frituras e bolinhos que fazem fama na casa.",
+    "maps": "https://maps.google.com/?cid=5077017236678537575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJiytxhlECzpQRZ3HCDkcwdUY",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/bar-do-toninho.jpg"
+  },
+  {
+    "nome": "Bar do Dante",
+    "nota": 4.6,
+    "avaliacoes": 3569,
+    "endereco": "R. Carvalho de Mendonça, 777 - Marapé, Santos - SP, 11070-103, Brasil",
+    "descricao": "Destino simples que serve pratos saudáveis, sorvetes e coquetéis, além de cerveja.",
+    "maps": "https://maps.google.com/?cid=10378292449628466355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJUWAYQUQDzpQRsyw5E_8ZB5A",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/bar-do-dante.jpg"
+  },
+  {
+    "nome": "Ôxe Bar",
+    "nota": 4.6,
+    "avaliacoes": 3263,
+    "endereco": "Av. Siqueira Campos, 606 - Boqueirão, Santos - SP, 11045-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11920819845681950941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJFQ_E-hUDzpQR3bBMjX1Cb6U",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/oxe-bar.jpg"
+  },
+  {
+    "nome": "Esquina do Bacalhau",
+    "nota": 4.6,
+    "avaliacoes": 2755,
+    "endereco": "Av. Mal. Deodoro, 148 - Gonzaga, Santos - SP, 11060-401, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17960447084754261773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ7zgx7xMDzpQRDVf6DXdTQPk",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/esquina-do-bacalhau.jpg"
+  },
+  {
+    "nome": "Bodegaia",
+    "nota": 4.6,
+    "avaliacoes": 2577,
+    "endereco": "R. República Argentina, 80 - Pompéia, Santos - SP, 11065-030, Brasil",
+    "descricao": "Bem iluminado e com decoração simples, bar oferece entradas, porções, carnes e pratos especiais aos domingos.",
+    "maps": "https://maps.google.com/?cid=12802179845665606903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJhwv8wxUDzpQR90yQo716qrE",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "nome_google": "Bodegaia Restaurante e Cervejaria",
+    "foto": "atracoes_fotos/bodegaia.jpg"
+  },
+  {
+    "nome": "Boteco Seu Tijuca",
+    "nota": 4.7,
+    "avaliacoes": 1906,
+    "endereco": "Av. Washington Luís, 386 - Gonzaga, Santos - SP, 11055-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=14598076245898861604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ7_Y2B3QDzpQRJJzecADJlso",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/boteco-seu-tijuca.jpg"
+  },
+  {
+    "nome": "Boteco Burgman Pompéia",
+    "nota": 4.5,
+    "avaliacoes": 2515,
+    "endereco": "Av. Pres. Wilson, 88 - Pompéia, Santos - SP, 11065-220, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12103935981406098563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJOac79Y4DzpQRg5THS6XR-ac",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/boteco-burgman-pompeia.jpg"
+  },
+  {
+    "nome": "Dalapa Botequim",
+    "nota": 4.9,
+    "avaliacoes": 1297,
+    "endereco": "Av. Mal. Deodoro, 18 - Gonzaga, Santos - SP, 11060-400, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15258968812441710843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJTSBqRAwDzpQR-zBaGEq_wtM",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/dalapa-botequim.jpg"
+  },
+  {
+    "nome": "Arapuka GastroBar",
+    "nota": 4.5,
+    "avaliacoes": 2255,
+    "endereco": "R. Azevedo Sodré, 123 - Gonzaga, Santos - SP, 11055-051, Brasil",
+    "descricao": "Coquetéis clássicos e criativos, além de comidinhas gourmets, em espaço contemporâneo, artístico e descolado.",
+    "maps": "https://maps.google.com/?cid=7839939449145079326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ-SETvQUDzpQRHjbdJmQPzWw",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/arapuka-gastrobar.jpg"
+  },
+  {
+    "nome": "Mercado de Peixe de Santos",
+    "nota": 4.5,
+    "avaliacoes": 19865,
+    "endereco": "Av. Gov. Mário Covas Júnior, 3050 - Ponta da Praia, Santos - SP, 11030-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8454345506781031655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJwR_iAxoCzpQR52waBHLeU3U",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/mercado-de-peixe-de-santos.jpg"
+  },
+  {
+    "nome": "Praça das Bandeiras",
+    "nota": 4.6,
+    "avaliacoes": 15417,
+    "endereco": "Av. Vicente de Carvalho, S/N - Gonzaga, Santos - SP, 11045-501, Brasil",
+    "descricao": "Esta praça à beira-mar têm uma fonte grande e é cercada por bandeiras de todos os estados.",
+    "maps": "https://maps.google.com/?cid=14943907301401856495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ79M3twQDzpQR74lssINsY88",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/praca-das-bandeiras.jpg"
+  },
+  {
+    "nome": "Museu Pelé",
+    "nota": 4.6,
+    "avaliacoes": 9992,
+    "endereco": "Largo Marquês de Monte Alegre, 1 - Valongo, Santos - SP, 11010-260, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7185091842619527020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJI9UOzIQEzpQRbM_kbfaStmM",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/museu-pele.jpg"
+  },
+  {
+    "nome": "Parque Roberto Mário Santini",
+    "nota": 4.6,
+    "avaliacoes": 9571,
+    "endereco": "Av. Pres. Wilson, S/N - José Menino, Santos - SP, 11065-201, Brasil",
+    "descricao": "Espaço verde à beira-mar, com pista de skate, ciclovia, playground, quiosques, monumento da imigração e mais.",
+    "maps": "https://maps.google.com/?cid=6379201583056897933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJKdpSyzsDzpQRjUe3lAp6h1g",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/parque-roberto-mario-santini.jpg",
+    "nome_google": "Parque Municipal Roberto Mário Santini"
+  },
+  {
+    "nome": "Orquidário Municipal de Santos",
+    "nota": 4.4,
+    "avaliacoes": 12437,
+    "endereco": "Praça Washington, s/n - José Menino, Santos - SP, 11065-600, Brasil",
+    "descricao": "Aquário e jardim botânico com grande variedade de plantas e animais marinhos em um ambiente tranquilo.",
+    "maps": "https://maps.google.com/?cid=3491625761419464851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJcTQongYDzpQRk5ACbiG_dDA",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/orquidario-municipal-de-santos.jpg"
+  },
+  {
+    "nome": "Monte Serrat Casino Elevador",
+    "nota": 4.7,
+    "avaliacoes": 6106,
+    "endereco": "Prç. Corrêa de Mello, 33 - Centro, Santos - SP, 11013-220, Brasil",
+    "descricao": "Cardápio de cafés e salgados, arquitetura inspirada na Belle Époque, ambiente elegante e eventos particulares.",
+    "maps": "https://maps.google.com/?cid=14738575666391037383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJN_Teen4DzpQRxzV08nrwicw",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/monte-serrat-casino-elevador.jpg"
+  },
+  {
+    "nome": "Praça da Independência",
+    "nota": 4.6,
+    "avaliacoes": 7318,
+    "endereco": "Av. Anna Costa - Gonzaga, Santos - SP, 11060-400, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7890756546641626671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ8T1nOQUDzpQRL4apq0WZgW0",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/praca-da-independencia.jpg"
+  },
+  {
+    "nome": "Emissário Submarino de Santos",
+    "nota": 4.7,
+    "avaliacoes": 5707,
+    "endereco": "Av. Pres. Wilson, 170 - José Menino, Santos - SP, 11065-201, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=9776156601565818811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJt9xfKzsDzpQRu6_rAKLiq4c",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/emissario-submarino-de-santos.jpg"
+  },
+  {
+    "nome": "Estádio Urbano Caldeira (Vila Belmiro)",
+    "nota": 4.6,
+    "avaliacoes": 20646,
+    "endereco": "R. Princesa Isabel, s/n - Vila Belmiro, Santos - SP, 11075-501, Brasil",
+    "descricao": "Grande e venerado estádio de futebol, casa do Santos FC. Vale a visita pela fachada histórica e, em dia de jogo, pela atmosfera da torcida.",
+    "site": "https://www.santosfc.com.br",
+    "maps": "https://maps.google.com/?cid=12548223905601859149",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/estadio-vila-belmiro.jpg",
+    "nome_google": "Estádio Urbano Caldeira (Vila Belmiro)"
+  },
+  {
+    "nome": "Memorial das Conquistas",
+    "nota": 4.8,
+    "avaliacoes": 3781,
+    "endereco": "R. Princesa Isabel, s/n - Vila Belmiro, Santos - SP, 11075-501, Brasil",
+    "descricao": "Museu com exposição de troféus, fotos e outros objetos relacionados ao Santos Futebol Clube.",
+    "maps": "https://maps.google.com/?cid=2974286103258674774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJnUqY0HEDzpQRVjYd1XPJRik",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/memorial-das-conquistas.jpg",
+    "nome_google": "Memorial das Conquistas (Santos FC Museum)"
+  },
+  {
+    "nome": "Bonde Turístico",
+    "nota": 4.6,
+    "avaliacoes": 4390,
+    "endereco": "Largo Marquês de Monte Alegre, 2 - Valongo, Santos - SP, 11010-060, Brasil",
+    "descricao": "Bonde em 40 minutos pelas ruas e edifícios do centro histórico com guia turístico caracterizados de sua época.",
+    "maps": "https://maps.google.com/?cid=14886525628191413489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJc_HL04MEzpQR8RQZyC-Ql84",
+    "tags": [
+      "passeios"
+    ],
+    "categoria": "Passeios Clássicos",
+    "foto": "atracoes_fotos/bonde-turistico.jpg"
+  },
+  {
+    "nome": "Museu do Café",
+    "nota": 4.7,
+    "avaliacoes": 19332,
+    "endereco": "R. Quinze de Novembro, 95 - Centro, Santos - SP, 11010-150, Brasil",
+    "descricao": "Museu com exposições sobre a história do café no Brasil, bem como aulas sobre café e curso de barista.",
+    "maps": "https://maps.google.com/?cid=2092273542086699040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJlZdtoIMEzpQRIKgGgbM_CR0",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/museu-do-cafe.jpg"
+  },
+  {
+    "nome": "Pinacoteca Benedicto Calixto",
+    "nota": 4.7,
+    "avaliacoes": 4187,
+    "endereco": "Av. Bartholomeu de Gusmão, 15 - Boqueirão, Santos - SP, 11045-400, Brasil",
+    "descricao": "Palacete em art nouveau com vitrais e aposentos imponentes expõe coleção com técnicas artísticas diversas.",
+    "maps": "https://maps.google.com/?cid=2096672098513528191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJnUqY0HEDzpQRfyVfOirgGB0",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/pinacoteca-benedicto-calixto.jpg"
+  },
+  {
+    "nome": "Praça Mauá",
+    "nota": 4.7,
+    "avaliacoes": 2068,
+    "endereco": "Centro, Santos - SP, 11010-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8729000152309103182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ2WT8bUsFzpQRTvq26mOjI3k",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/praca-maua.jpg",
+    "nome_google": "Praça Mauá - Centro Histórico de Santos"
+  },
+  {
+    "nome": "Museu do Porto de Santos",
+    "nota": 5,
+    "avaliacoes": 1199,
+    "endereco": "Av. Conselheiro Rodrigues Alves - Macuco, Santos - SP, 11015-230, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11410093655552013383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPycJUboDzpQRR7Qd-bnLWJ4",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/museu-do-porto-de-santos.jpg"
+  },
+  {
+    "nome": "Centro Cultural Português",
+    "nota": 4.7,
+    "avaliacoes": 1021,
+    "endereco": "R. Amador Bueno, 188 - Centro, Santos - SP, 11013-150, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1288728517665729395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJTyl2NH4DzpQRc6thQ8J74hE",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/centro-cultural-portugues.jpg"
+  },
+  {
+    "nome": "Centro de Cultura Patrícia Galvão",
+    "nota": 4.7,
+    "avaliacoes": 524,
+    "endereco": "Av. Senador Pinheiro Machado, 48 - Vila Mathias, Santos - SP, 11075-900, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17429958659164688287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJzcsP4HoDzpQRn09BeQ2n4_E",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/centro-de-cultura-patricia-galvao.jpg"
+  },
+  {
+    "nome": "Museu do Mar",
+    "nota": 4.2,
+    "avaliacoes": 944,
+    "endereco": "R. República do Equador, 81 - Ponta da Praia, Santos - SP, 11030-151, Brasil",
+    "descricao": "Um dos principais acervos de arqueologia submarina e história marítima do país com biologia&história marítima.",
+    "maps": "https://maps.google.com/?cid=10773025741856202871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJL8f1aw4DzpQRd2B6k9V5gZU",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/museu-do-mar.jpg"
+  },
+  {
+    "nome": "Casa da Frontaria Azulejada",
+    "nota": 4.6,
+    "avaliacoes": 474,
+    "endereco": "Rua do Comércio, 92 - Centro, Santos - SP, 11010-140, Brasil",
+    "descricao": "Casarão construído em 1865, revestido de azulejos portugueses, com espaço para exposições e apresentações.",
+    "maps": "https://maps.google.com/?cid=15783377297477475200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJGbnanYQEzpQRgBscNAfSCds",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/casa-da-frontaria-azulejada.jpg"
+  },
+  {
+    "nome": "Engenho São Jorge dos Erasmos",
+    "nota": 4.8,
+    "avaliacoes": 321,
+    "endereco": "R. Alan Ciber Pinto, 96 - Vila Sao Jorge, Santos - SP, 11085-625, Brasil",
+    "descricao": "Complexo arqueológico de antigo engenho de açúcar virou sítio turístico com agenda educacional e de estudos.",
+    "maps": "https://maps.google.com/?cid=452209486670544847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJY56GUVUbzpQRzz8P2SGSRgY",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/engenho-sao-jorge-dos-erasmos.jpg",
+    "nome_google": "Monumento Nacional Ruínas Engenho São Jorge dos Erasmos (PRCEU | USP)"
+  },
+  {
+    "nome": "Museu de Arte Sacra de Santos",
+    "nota": 4.6,
+    "avaliacoes": 335,
+    "endereco": "R. Santa Cecília, 795 - Morro São Bento, Santos - SP, 11082-460, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17930312635266783438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJC3qZ8ZwEzpQRzljGyFdE1fg",
+    "tags": [
+      "cultura"
+    ],
+    "categoria": "Museus e Cultura",
+    "foto": "atracoes_fotos/museu-de-arte-sacra-de-santos.jpg",
+    "nome_google": "MASS - Museu de Arte Sacra de Santos"
+  },
+  {
+    "nome": "Escuna Mestre dos Mares",
+    "nota": 4.7,
+    "avaliacoes": 1310,
+    "endereco": "Ponte Edgard Perdigão - Ponte dos Práticos) em frente ao Clube Saldanha Gama - Av. Rei Pelé, s/n - Ponta da Praia, Santos - SP, 11030-400, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1082318684040361617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJOV7-gmsCzpQRkXb-1xsrBQ8",
+    "tags": [
+      "mar"
+    ],
+    "categoria": "Passeios no Mar",
+    "foto": "atracoes_fotos/escuna-mestre-dos-mares.jpg",
+    "nome_google": "Passeio de Escuna em Santos - Escuna Mestre dos Mares"
+  },
+  {
+    "nome": "Lanchas Tour",
+    "nota": 4.8,
+    "avaliacoes": 101,
+    "endereco": "Av. Alm. Cochrane, 194 - Sl 72 - Ponta da Praia, Santos - SP, 11040-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2378962219419693130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJpc7WCg8DzpQRSvCVxojFAyE",
+    "tags": [
+      "mar"
+    ],
+    "categoria": "Passeios no Mar",
+    "foto": "atracoes_fotos/lanchas-tour.jpg",
+    "nome_google": "Lanchas Tour - Passeio de Lancha Guarujá e Santos"
+  },
+  {
+    "nome": "Oceanic",
+    "nota": 4.9,
+    "avaliacoes": 90,
+    "endereco": "Ponta da Praia, Santos - SP, 11030-400, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16512670173951534838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJh8A08bwDzpQR9qaRCwnKKOU",
+    "tags": [
+      "mar"
+    ],
+    "categoria": "Passeios no Mar",
+    "foto": "atracoes_fotos/oceanic.jpg",
+    "nome_google": "Oceanic – Passeios de barcos, aluguel de lanchas e Eventos Náuticos em Santos & Guarujá"
+  },
+  {
+    "nome": "SeaBoat Locações de Lanchas",
+    "nota": 4.5,
+    "avaliacoes": 76,
+    "endereco": "R. Newton Prado, 20 - José Menino, Santos - SP, 11065-260, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8040380744962828007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ253al8MDzpQR52ZmErArlW8",
+    "tags": [
+      "mar"
+    ],
+    "categoria": "Passeios no Mar",
+    "foto": "atracoes_fotos/seaboat-locacoes-de-lanchas.jpg"
+  },
+  {
+    "nome": "Barca Santos - DP WORLD",
+    "nota": 4.3,
+    "avaliacoes": 61,
+    "endereco": "Praça Antônio Teles, 82 - Centro, Santos - SP, 11013-020, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8642871025465491068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJr8QgmH8FzpQRfP5i4Gel8Xc",
+    "tags": [
+      "mar"
+    ],
+    "categoria": "Passeios no Mar",
+    "foto": "atracoes_fotos/barca-santos-dp-world.jpg"
+  },
+  {
+    "nome": "Praiamar Shopping",
+    "nota": 4.6,
+    "avaliacoes": 46081,
+    "endereco": "R. Alexandre Martins, 80 - Aparecida, Santos - SP, 11025-202, Brasil",
+    "descricao": "Shopping coberto, com vários andares e 220 lojas, praça de alimentação ampla, supermercado e multiplex.",
+    "maps": "https://maps.google.com/?cid=16230967679043281756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJlYxTdFMDzpQRXKM41hv7P-E",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/praiamar-shopping.jpg"
+  },
+  {
+    "nome": "Miramar Shopping",
+    "nota": 4.5,
+    "avaliacoes": 27204,
+    "endereco": "R. Euclydes da Cunha, 21 - Gonzaga, Santos - SP, 11065-900, Brasil",
+    "descricao": "Shopping com mais de 120 lojas e quiosques, além de vários restaurantes. Animais de estimação são permitidos.",
+    "maps": "https://maps.google.com/?cid=11951279349975575249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJPZoqDBADzpQR0WrBij9526U",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/miramar-shopping.jpg"
+  },
+  {
+    "nome": "Shopping Parque Balneário",
+    "nota": 4.5,
+    "avaliacoes": 22453,
+    "endereco": "Av. Anna Costa, 549 - Gonzaga, Santos - SP, 11060-900, Brasil",
+    "descricao": "Shopping antigo e tranquilo com várias lojas e uma praça de alimentação com culinária internacional.",
+    "maps": "https://maps.google.com/?cid=8948479473270323015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJtceU6QQDzpQRR_cmfKtiL3w",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/shopping-parque-balneario.jpg"
+  },
+  {
+    "nome": "Pátio Iporanga",
+    "nota": 4.3,
+    "avaliacoes": 11738,
+    "endereco": "Av. Anna Costa, 465 - Gonzaga, Santos - SP, 11060-001, Brasil",
+    "descricao": "Local moderno com diversas lojas e restaurantes, além de exibições de arte, festivais, música e shows.",
+    "maps": "https://maps.google.com/?cid=11872877471568035551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJHw7Ykg8DzpQR3_6MuifvxKQ",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/patio-iporanga.jpg"
+  },
+  {
+    "nome": "Super Centro Comercial Boqueirão",
+    "nota": 4.5,
+    "avaliacoes": 7648,
+    "endereco": "R. Oswaldo Cruz, 319 - Boqueirão, Santos - SP, 11045-101, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17725780693609315773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJKX0dB6kDzpQRvX0PKaCf_vU",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/super-centro-comercial-boqueirao.jpg"
+  },
+  {
+    "nome": "The Blue Shopping",
+    "nota": 4.4,
+    "avaliacoes": 3492,
+    "endereco": "Av. Senador Feijó, 686 - Vila Mathias, Santos - SP, 11015-504, Brasil",
+    "descricao": "Complexo comercial moderno com várias lojas de varejo simples, escritórios e cafés, incluindo uma farmácia.",
+    "maps": "https://maps.google.com/?cid=6388945271075121775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJMfxQX3QDzpQRbyrYu98Xqlg",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/the-blue-shopping.jpg"
+  },
+  {
+    "nome": "Bulevar Shopping",
+    "nota": 4.3,
+    "avaliacoes": 2905,
+    "endereco": "R. Marcílio Dias, 27 - Gonzaga, Santos - SP, 11060-210, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8455696101823459505&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ9153zxoDzpQRsbDX7c2qWHU",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/bulevar-shopping.jpg"
+  },
+  {
+    "nome": "Miramar Centro de Compras",
+    "nota": 4.3,
+    "avaliacoes": 1325,
+    "endereco": "Av. Dr. Epitácio Pessoa, 62 - Boqueirão, Santos - SP, 11045-300, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=11295060032327938486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJuzR6LVUCzpQRtnGeb0EdwJw",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/miramar-centro-de-compras.jpg"
+  },
+  {
+    "nome": "Galeria A. D. Moreira",
+    "nota": 4.6,
+    "avaliacoes": 557,
+    "endereco": "Gonzaga, Santos - SP, 11060-100, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15761268962046676735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJs1bcz9oDzpQR_44uPJ1Gu9o",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/galeria-a-d-moreira.jpg"
+  },
+  {
+    "nome": "Youcom | Miramar Shopping",
+    "nota": 4.3,
+    "avaliacoes": 544,
+    "endereco": "R. Euclydes da Cunha, 21 - Gonzaga, Santos - SP, 11065-900, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=8319905040664482805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ31XgpBoDzpQR9dPJwY09dnM",
+    "tags": [
+      "compras"
+    ],
+    "categoria": "Compras",
+    "foto": "atracoes_fotos/youcom-miramar-shopping.jpg"
+  },
+  {
+    "nome": "Carrefour Hipermercado Santos",
+    "nota": 4.2,
+    "avaliacoes": 9981,
+    "endereco": "Av. Conselheiro Nébias, 802 - Boqueirão, Santos - SP, 11015-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=2871072535930225102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJMyg_tZ0DzpQRzkGAhEIZ2Cc",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/carrefour-hipermercado-santos.jpg"
+  },
+  {
+    "nome": "Dom Constantin Supermercado",
+    "nota": 4.5,
+    "avaliacoes": 2561,
+    "endereco": "Av. Bernardino de Campos, 591 - Gonzaga, Santos - SP, 11065-001, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1985993109482977451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJYWzUzBYDzpQRqzgb-TWqjxs",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/dom-constantin-supermercado.jpg"
+  },
+  {
+    "nome": "Pão de Açúcar",
+    "nota": 4.3,
+    "avaliacoes": 3509,
+    "endereco": "Av. Pres. Wilson, 94 - 96 - José Menino, Santos - SP, 11065-200, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12848938537521982542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJrQ2CQsEdzpQRTizT9YWZULI",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/pao-de-acucar.jpg"
+  },
+  {
+    "nome": "Supermercado Varandas",
+    "nota": 4.2,
+    "avaliacoes": 3619,
+    "endereco": "Av. Senador Pinheiro Machado, 643 - Campo Grande, Santos - SP, 11075-003, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=1051274578543609151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJM3IH80EDzpQRP4V9x6jglg4",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-varandas.jpg",
+    "nome_google": "Supermercado Varandas • Campo Grande • Santos"
+  },
+  {
+    "nome": "Pão de Açúcar",
+    "nota": 4.3,
+    "avaliacoes": 2427,
+    "endereco": "Av. Conselheiro Nébias, 568 - Centro, Santos - SP, 11045-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15430382342875002537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJEwI9avgDzpQRqTaGt_y6I9Y",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/pao-de-acucar.jpg"
+  },
+  {
+    "nome": "Supermercado Santa Terezinha",
+    "nota": 4.3,
+    "avaliacoes": 2158,
+    "endereco": "R. João Caetano, 57 H - Campo Grande, Santos - SP, 11070-310, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=5306284192936212456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJcbZG2j8DzpQR6Lc7DVy1o0k",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-santa-terezinha.jpg"
+  },
+  {
+    "nome": "Pão de Açúcar",
+    "nota": 4.1,
+    "avaliacoes": 2657,
+    "endereco": "Av. Bartholomeu de Gusmão, 45 - Embaré, Santos - SP, 11040-000, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3529801361822695639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJD476WlECzpQR18AhC6Nf_DA",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/pao-de-acucar.jpg"
+  },
+  {
+    "nome": "Aldeias Supermercados",
+    "nota": 4.2,
+    "avaliacoes": 1869,
+    "endereco": "Av. Mal. Floriano Peixoto, 92 - Gonzaga, Santos - SP, 11060-300, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=12519085645195068966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJZ09IgBADzpQRJkaLuhC6vK0",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/aldeias-supermercados.jpg"
+  },
+  {
+    "nome": "Extra Mercado",
+    "nota": 3.9,
+    "avaliacoes": 3248,
+    "endereco": "Av. Bernardino de Campos, 379 - Campo Grande, Santos - SP, 11065-001, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=17423712742478712434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJnbZsumwDzpQRcg7kq2x2zfE",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/extra-mercado.jpg"
+  },
+  {
+    "nome": "Supermercado Jangada",
+    "nota": 4.1,
+    "avaliacoes": 1784,
+    "endereco": "R. Bahia, 153 - Gonzaga, Santos - SP, 11060-451, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6768172430214492950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJq0X4ABADzpQRFvOGSfdg7V0",
+    "tags": [
+      "supermercados"
+    ],
+    "categoria": "Supermercados",
+    "foto": "atracoes_fotos/supermercado-jangada.jpg"
+  },
+  {
+    "nome": "Droga Raia",
+    "nota": 4.4,
+    "avaliacoes": 245,
+    "endereco": "Av. Senador Pinheiro Machado, 777 - Campo Grande, Santos - SP, 11075-003, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=15893133259091077258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ0UXndUADzpQRiugRZH7Aj9w",
+    "tags": [
+      "farmacias"
+    ],
+    "categoria": "Farmácias",
+    "foto": "atracoes_fotos/droga-raia.jpg"
+  },
+  {
+    "nome": "Drogasil",
+    "nota": 4.3,
+    "avaliacoes": 256,
+    "endereco": "Av. Bernardino de Campos, 416 - Campo Grande, Santos - SP, 11065-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=6541499570648222300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJbanfWxMDzpQRXIrbfjMTyFo",
+    "tags": [
+      "farmacias"
+    ],
+    "categoria": "Farmácias",
+    "foto": "atracoes_fotos/drogasil.jpg"
+  },
+  {
+    "nome": "Droga Raia",
+    "nota": 4.3,
+    "avaliacoes": 209,
+    "endereco": "Av. Bernardino de Campos, 613 - Campo Grande, Santos - SP, 11065-002, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3063166913765625440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJyU-d1RYDzpQRYM66JhSOgio",
+    "tags": [
+      "farmacias"
+    ],
+    "categoria": "Farmácias",
+    "foto": "atracoes_fotos/droga-raia.jpg"
+  },
+  {
+    "nome": "Farmácias Nissei",
+    "nota": 4.8,
+    "avaliacoes": 119,
+    "endereco": "Praça da Independência, 08 - Gonzaga, Santos - SP, 11060-100, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=16008609590956477865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ-ZyrupYDzpQRqU3fEJsBKt4",
+    "tags": [
+      "farmacias"
+    ],
+    "categoria": "Farmácias",
+    "foto": "atracoes_fotos/farmacias-nissei.jpg"
+  },
+  {
+    "nome": "Droga Raia",
+    "nota": 4.2,
+    "avaliacoes": 228,
+    "endereco": "Av. Conselheiro Nébias, 547 - Boqueirão, Santos - SP, 11045-003, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=3111789794038407265&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJi7fbyqADzpQRYWBYqVRMLys",
+    "tags": [
+      "farmacias"
+    ],
+    "categoria": "Farmácias",
+    "foto": "atracoes_fotos/droga-raia.jpg"
+  },
+  {
+    "nome": "Bar dos Amigos",
+    "nota": 4.5,
+    "avaliacoes": 108,
+    "endereco": "Av. Dr. Pedro Lessa - Embaré, Santos - SP, 11040-030, Brasil",
+    "descricao": "",
+    "maps": "https://maps.google.com/?cid=7129017643479873674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJk6qzewADzpQRijgcjcZb72I",
+    "preco": "$$",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "subcategoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/bar-dos-amigos.jpg"
+  },
+  {
+    "nome": "Galo Quente",
+    "nota": 4.3,
+    "avaliacoes": 1352,
+    "endereco": "R. Gen. Rondon, 47 - Aparecida, Santos - SP, 11030-600, Brasil",
+    "descricao": "Bar popular com mesas externas repleto de temas da cerveja Skol serve porções mistas e lanches caseiros.",
+    "maps": "https://maps.google.com/?cid=12397691489768117495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "place_id": "ChIJ8VnEuUUCzpQR9xSDYrlyDaw",
+    "preco": "$$",
+    "tags": [
+      "bares"
+    ],
+    "categoria": "Bares Tradicionais",
+    "subcategoria": "Bares Tradicionais",
+    "foto": "atracoes_fotos/bar-e-restaurante-galo-quente.jpg",
+    "nome_google": "Bar e Restaurante Galo Quente"
+  }
+]

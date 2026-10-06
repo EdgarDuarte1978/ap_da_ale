@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 
 <body>
@@ -42,7 +42,7 @@
 </header>
 
 <section class="hero">
-    <img class="hero-bg" src="hero_ap_ale.jpg" alt="Vista da praia do Gonzaga, em Santos">
+    <img class="hero-bg" src="hero_ap_ale.jpg?v=2" alt="Pôr do sol na orla de Santos">
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <span class="hero-tag">Exclusivo para hóspedes</span>
@@ -64,7 +64,9 @@
                 <button onclick="filtrarPorExperiencia('carnes')">🥩 Carnes</button>
                 <button onclick="filtrarPorExperiencia('brasileira')">🍛 Brasileira</button>
                 <button onclick="filtrarPorExperiencia('cafés')">☕ Cafés e Padarias</button>
+                <button onclick="filtrarPorExperiencia('bares')">🍻 Bares Tradicionais</button>
             </div>
+            <p id="nota-categoria" class="nota-categoria" hidden></p>
         </div>
     </div>
 </section>
@@ -96,7 +98,7 @@
     </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=2"></script>
 
 </body>
 

@@ -27,3 +27,5 @@ restaurantes_relatorio.csv
 
 # backups gerados por fazer_backup.py
 backup/
+
+resultado_*.txt
